@@ -1,0 +1,117 @@
+h1 {
+    color: goldenrod;
+    background-color: royalblue;
+    border-style: solid;
+    border-color: silver;
+    border-width: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: black 1px 1px;
+    }
+
+h2 {
+    text-shadow: black 1px 0px;
+} 
+h2:hover {
+    color: goldenrod;
+}
+
+body {
+    background-image: linear-gradient(lightblue, ivory);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table, th, td {
+    border: dotted;
+    border-width: 1px;
+    border-color: brown;
+    width: 30%;
+}
+
+tr:nth-child(1){
+    background-color: aqua;
+}
+
+tr:nth-child(even){
+    background: lightgoldenrodyellow;
+}
+
+tr:hover {
+    background: gray;
+}
+
+p {
+    font-size: medium;
+}
+
+#coffeeBeans {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+}
+
+#cupsOfCoffee {
+    float: right;
+    padding-top: 35px;
+    margin-right: 50px;
+    width: 35%;
+    height: 35%;
+}
+
+#worldCoffee {
+    width: 35%;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+.text-effect {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+    font-size: larger;
+}
+
+#contact {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 35%;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 4px;
+    text: black;
+    opacity: 0.5;
+}
+
+input[type=text]:hover {
+    opacity: 1;
+}
+
+input[type=submit]{
+    margin: 10px;
+    background-color: royalblue;
+    color: goldenrod;
+    text-shadow: 1px 0 black;
+}
+
+input[type=radio]{
+    accent-color:aqua;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal Tracker</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body class="container">
+      <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="date">Date</label>
+                        <input type="date" class="form-control" id="new-date">
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="time">What time</label>
+                        <input type="time" class="form-control" id="time">
+                    </div>
+
+                </div>
+                <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="meal">What did I eat?</label>
+                        <input type="text" class="form-control" id="meal">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="comment">Ratings and comments</label>
+                        <input type="text" class="form-control" id="comment">
+                    </div>
+                </div>
+                <div>                
+                    <button id="add" class="btn btn-primary from-control">Create</button>
+                </div>
+            </div>
+            </div> 
+            <table id="list" class="table table-dark table-striped">
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>What did I eat?</th>
+                    <th>Ratings</th>
+                    <th>Actions</th>
+                </tr>
+            </table>            
+                <div class="row">
+                    <div class="col-sm">
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+      </div>  
+
+        
+
+
+
+    <script src="project.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        
+    </body>

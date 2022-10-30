@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <h1 class="text-center">Current Turn: <span id="currentTurn">X</span></h1>
+    <div class="container text-center">
+        <div id="play-area">
+            <div class="row">
+            <div class="gamecell col-sm" id='cell0'></div>
+            <div class="gamecell col-sm" id='cell1'></div>
+            <div class="gamecell col-sm" id='cell2'></div>
+            </div>
+            <div class="row">
+            <div class="gamecell col-sm" id='cell3'></div>
+            <div class="gamecell col-sm" id='cell4'></div>
+            <div class="gamecell col-sm" id='cell5'></div>
+            </div>
+            <div class="row">
+            <div class="gamecell col-sm" id='cell6'></div>
+            <div class="gamecell col-sm" id='cell7'></div>
+            <div class="gamecell col-sm" id='cell8'></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="display announcer hide"></div>
+    <button id="restart">Clear and Restart</button>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="index2.js"></script>
+    </body>
+</html>
